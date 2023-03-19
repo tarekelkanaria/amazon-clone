@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <!-- The icon -->
+    <link rel="icon" href="assets/favicon.ico" />
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="style/normalize.css" />
+    <!-- Amazon Font -->
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet" />
+    <!--Load font awesome library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main style -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- Starting the header -->
+    <header>
+      <!-- top menu bar -->
+      <nav class="top-menu">
+        <div class="top-menu__left">
+          <div class="left__logo">
+            <img
+              src="assets/amazon-Logo-dark-mood.png"
+              alt="Amazon nav logo"
+              loading="lazy"
+            />
+          </div>
+          <div class="left__location">
+            <div class="location__poster">
+              <i class="fa fa-location-dot"></i>
+            </div>
+            <div class="location__text">
+              <p>Deliver to</p>
+              <h3>Zimbabwe</h3>
+            </div>
+          </div>
+        </div>
+        <div class="top-menu__middle">
+          <select name="department" class="choose">
+            <option value="all" selected>All Departments</option>
+            <option value="arts-and-crafts">Arts & Crafts</option>
+            <option value="automotive">Automotive</option>
+            <option value="baby">Baby</option>
+            <option value="beauty-and-personal-care">
+              Beauty & Personal Care
+            </option>
+            <option value="books">Books</option>
+            <option value="boys-fashion">Boys' Fashion</option>
+            <option value="computers">Computers</option>
+            <option value="deals">Deals</option>
+            <option value="digital-music">Digital Music</option>
+            <option value="electronics">Electronics</option>
+            <option value="girls-fashion">Girls' Fashion</option>
+            <option value="health-and-household">Health & Household</option>
+            <option value="home-and-kitchen">Home & Kitchen</option>
+            <option value="industrial-and-scientific">
+              Industrial & Scientific
+            </option>
+            <option value="kindle-store">Kindle Store</option>
+            <option value="luggage">Luggage</option>
+            <option value="mens-fashion">Men's Fashion</option>
+            <option value="movies-and-tv">Movies & TV</option>
+            <option value="music-cds-and-vinyl">Music, CDs & Vinyl</option>
+            <option value="pet-supplies">Pet Supplies</option>
+            <option value="prime-video">Prime Video</option>
+            <option value="software">Software</option>
+            <option value="sports-and-outdoors">Sports & Outdoors</option>
+            <option value="tools-and-home-improvement">
+              Tools & Home Improvement
+            </option>
+            <option value="toys-and-Games">Toys & Games</option>
+            <option value="video-games">Video Games</option>
+            <option value="womens-fashion">Women's Fashion</option>
+          </select>
+          <input type="text" name="feild" placeholder="Search Amazon" />
+          <button class="middle__search-icon">
+            <i class="fa fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="top-menu__right">
+          <div class="right__language">
+            <div class="poster">
+              <img src="assets/united-states.png" alt="United state flag" />
+            </div>
+            <p>EN <i class="fa fa-caret-down"></i></p>
+            <div class="language__list">
+              <div class="menu-arrow"></div>
+              <div class="language-menu">
+                <div>
+                  <p>Change language</p>
+                  <a href="#">Learn more</a>
+                </div>
+                <ul>
+                  <li>
+                    <input
+                      type="radio"
+                      id="eng"
+                      name="lang"
+                      value="eng"
+                      checked
+                    /><label for="eng">English - EN</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="es" name="lang" value="es" /><label
+                      for="es"
+                      >español - ES</label
+                    >
+                  </li>
+                  <li>
+                    <input type="radio" id="ar" name="lang" value="ar" /><label
+                      for="ar"
+                      >العربية - AR</label
+                    >
+                  </li>
+                  <li>
+                    <input type="radio" id="de" name="lang" value="de" /><label
+                      for="de"
+                      >Deutsch - DE</label
+                    >
+                  </li>
+                  <li>
+                    <input type="radio" id="he" name="lang" value="he" /><label
+                      for="he"
+                      >עברית - HE</label
+                    >
+                  </li>
+                  <li>
+                    <input type="radio" id="ko" name="lang" value="ko" /><label
+                      for="ko"
+                      >한국어 - KO</label
+                    >
+                  </li>
+                  <li>
+                    <input type="radio" id="pt" name="lang" value="pt" /><label
+                      for="pt"
+                      >português - PT</label
+                    >
+                  </li>
+                  <li>
+                    <input type="radio" id="zh" name="lang" value="zh" /><label
+                      for="zh"
+                      >中文 (简体) - ZH</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="zh2"
+                      name="lang"
+                      value="zh2"
+                    /><label for="zh2">中文 (繁體) - ZH</label>
+                  </li>
+                </ul>
+                <div>
+                  <p>Change currency</p>
+                  <div>
+                    <a href="#">Learn more</a>
+                  </div>
+                </div>
+                <div>
+                  <p>$ USD - US Dollar</p>
+                  <div>
+                    <a href="#">change</a>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <img
+                      src="assets/united-states.png"
+                      alt="USA flag"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p>You are shopping on Amazon.com</p>
+                </div>
+                <div>
+                  <a href="#">Change country/region</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right__signin">
+            <p>Hello, sign in</p>
+            <h3>Account & Lists <i class="fa fa-caret-down"></i></h3>
+            <div class="signin__list">
+              <div class="menu-arrow"></div>
+              <div class="signin-menu">
+                <div class="signin__action">
+                  <button>Sign in</button>
+                  <p>New Customer? <a href="#">Start here</a></p>
+                </div>
+                <div class="signin__options">
+                  <h3>Your Account</h3>
+                  <ul>
+                    <li>Account</li>
+                    <li>Orders</li>
+                    <li>Recommendations</li>
+                    <li>Browsing History</li>
+                    <li>Watchlist</li>
+                    <li>Video Purchases & Rentals</li>
+                    <li>Kindle Unlimited</li>
+                    <li>Content & Devices</li>
+                    <li>Subscribe & Save Items</li>
+                    <li>Memberships & Subscriptions</li>
+                    <li>Music Library</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right__orders">
+            <p>Returns</p>
+            <h3>& Orders</h3>
+          </div>
+          <div class="right__cart">
+            <p><span>0</span> <i class="fa fa-cart-shopping"></i> Cart</p>
+          </div>
+        </div>
+      </nav>
+      <!-- Main menu bar -->
+      <nav class="main-menu">
+        <ul class="shopping-nav">
+          <li>
+            <div class="shopping-nav__all">
+              <i class="fa fa-bars"></i>
+              <p>All</p>
+              <!-- Modal Structure -->
+              <input
+                type="radio"
+                class="open-modal"
+                name="toggle"
+                value="open"
+              />
+              <input
+                type="radio"
+                class="close-modal"
+                name="toggle"
+                value="close"
+              />
+              <div class="modal__overlay">
+                <i class="fa fa-xmark fa-2x"></i>
+              </div>
+              <div class="signin-modal">
+                <div class="signin-modal__title">
+                  <div class="title__avatar">
+                    <i class="fa fa-circle-user fa-2x"></i>
+                  </div>
+                  <p>Hello, sign in</p>
+                </div>
+                <div class="signin-modal__content">
+                  <div class="content__section">
+                    <h3>Digital Content & Devices</h3>
+                    <ul>
+                      <li>Amazon Music <i class="fa fa-chevron-right"></i></li>
+                      <li>
+                        Kindle E-readers & Books
+                        <i class="fa fa-chevron-right"></i>
+                      </li>
+                      <li>
+                        Amazon Appstore <i class="fa fa-chevron-right"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="content__section see">
+                    <h3>Shop By Department</h3>
+                    <ul>
+                      <li>Electronics <i class="fa fa-chevron-right"></i></li>
+                      <li>Computers <i class="fa fa-chevron-right"></i></li>
+                      <li>Smart Home <i class="fa fa-chevron-right"></i></li>
+                      <li>Arts & Crafts <i class="fa fa-chevron-right"></i></li>
+                      <li>See All <i class="fa fa-chevron-down"></i></li>
+                    </ul>
+                  </div>
+                  <div class="content__section see">
+                    <h3>Programs & Features</h3>
+                    <ul>
+                      <li>Gift Cards <i class="fa fa-chevron-right"></i></li>
+                      <li>
+                        Shop By Interest <i class="fa fa-chevron-right"></i>
+                      </li>
+                      <li>Amazon Live <i class="fa fa-chevron-right"></i></li>
+                      <li>
+                        International Shopping
+                        <i class="fa fa-chevron-right"></i>
+                      </li>
+                      <li>See All <i class="fa fa-chevron-down"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>Today's Deals</li>
+          <li>Customer Service</li>
+          <li>Registry</li>
+          <li>Gift Crds</li>
+          <li>Sell</li>
+        </ul>
+        <p>Shop great deals now</p>
+      </nav>
+    </header>
+    <!-- Start Main Content -->
+    <main>
+      <!-- Landing Structure -->
+      <section class="landing">
+        <div class="carousel">
+          <input
+            type="radio"
+            name="slide"
+            value="previous"
+            class="previous__slide"
+          />
+          <input type="radio" name="slide" value="next" class="next__slide" />
+          <div class="previous-button">
+            <i class="fa fa-chevron-left fa-3x"></i>
+          </div>
+          <div class="next-button">
+            <i class="fa fa-chevron-right fa-3x"></i>
+          </div>
+          <div class="slider">
+            <div class="landing__card">
+              <img
+                src="assets/landing/landing01.jpg"
+                alt="Shop toys and games"
+                loading="lazy"
+              />
+            </div>
+            <div class="landing__card">
+              <img
+                src="assets/landing/landing02.jpg"
+                alt="Ship products marketing"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Products by category structure -->
+      <section class="card-wrapper category">
+        <article class="card">
+          <h3>Gaming accessories</h3>
+          <div class="card__poster multi">
+            <figure>
+              <img
+                src="assets/category/gaming/gaming-product01.jpg"
+                alt="Headsets"
+                loading="lazy"
+              />
+              <figcaption>Headsets</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/category/gaming/gaming-product02.jpg"
+                alt="Keyboards"
+                loading="lazy"
+              />
+              <figcaption>Keyboards</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/category/gaming/gaming-product03.jpg"
+                alt="Computer mice"
+                loading="lazy"
+              />
+              <figcaption>Computer mice</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/category/gaming/gaming-product04.jpg"
+                alt="Chairs"
+                loading="lazy"
+              />
+              <figcaption>Chairs</figcaption>
+            </figure>
+          </div>
+          <div class="card__link">
+            <a href="#">See more</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Deals & Promotions</h3>
+          <div class="card__poster">
+            <img
+              src="assets/category/deals-and-promotions.jpg"
+              alt="Deals and promotions"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Beauty picks</h3>
+          <div class="card__poster">
+            <img
+              src="assets/category/beauty-picks.jpg"
+              alt="Beauty picks"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card marketing">
+          <div class="card__poster">
+            <img
+              src="assets/category/ship-products.jpg"
+              alt="We ship 45 million products around the world"
+              loading="lazy"
+            />
+          </div>
+          <h3>Sign in for the best experience</h3>
+          <div class="card__btn">
+            <button>Sign in securely</button>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Health & Personal Care</h3>
+          <div class="card__poster">
+            <img
+              src="assets/category/health-and-personal-care.jpg"
+              alt="Health and personal care"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Get fit at home</h3>
+          <div class="card__poster">
+            <img
+              src="assets/category/get-fit-at-home.jpg"
+              alt="Get fit at home"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Explore now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Dresses</h3>
+          <div class="card__poster">
+            <img
+              src="assets/category/dresses.jpg"
+              alt="Get fit at home"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Shop by Category</h3>
+          <div class="card__poster multi">
+            <figure>
+              <img
+                src="assets/category/shop-by-category/computers-and-accessories.jpg"
+                alt="Computers and accessories"
+                loading="lazy"
+              />
+              <figcaption>Computers & Accessories</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/category/shop-by-category/video-games.jpg"
+                alt="Video games"
+                loading="lazy"
+              />
+              <figcaption>Video Games</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/category/shop-by-category/baby.jpg"
+                alt="Baby"
+                loading="lazy"
+              />
+              <figcaption>Baby</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/category/shop-by-category/toys-and-games.jpg"
+                alt="Toys and games"
+                loading="lazy"
+              />
+              <figcaption>Toys & Games</figcaption>
+            </figure>
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Electronics</h3>
+          <div class="card__poster">
+            <img
+              src="assets/category/electronics.jpg"
+              alt="Electronics"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">See more</a>
+          </div>
+        </article>
+        <div class="separator"></div>
+      </section>
+      <!-- Popular items structure -->
+      <section class="items-wrapper">
+        <h3>Popular items this season</h3>
+        <div class="carousel small">
+          <input
+            type="radio"
+            name="popular-items"
+            value="previous"
+            class="previous__slide"
+          />
+          <input
+            type="radio"
+            name="popular-items"
+            value="next"
+            class="next__slide"
+          />
+          <div class="previous-button">
+            <i class="fa fa-chevron-left fa-3x"></i>
+          </div>
+          <div class="next-button">
+            <i class="fa fa-chevron-right fa-3x"></i>
+          </div>
+          <div class="slider">
+            <div class="items-group">
+              <div class="item">
+                <img
+                  src="assets/popular-items/superintelligence-paths-dangers-strategies.jpg"
+                  alt="Superintelligence paths dangers strategies"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/what-we-owe-the-future.jpg"
+                  alt="What we owe the future"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/the-ape-that-understood-the-universe-how-the-mind-and-culture-evolve.jpg"
+                  alt="The ape that understood the universe how the mind and culture evolve"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/collective-illusions-conformity-complicity-and-the-science-of-why-we-make-bad-decisions.jpg"
+                  alt="Collective illusions conformity complicity and the science of why we make bad decisions"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/doing-good-better-how-effective-altruism-can-help-you-help-others-do-work-that-matters-and-make-smarter-choices.jpg"
+                  alt="Doing good better how effective altruism can help you help others do work that matters and make smarter choices"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/80000-hours-find-a-fulfilling-career-that-does-good.jpg"
+                  alt="80000 hours find a fulfilling career that does good"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="items-group">
+              <div class="item">
+                <img
+                  src="assets/popular-items/the-scout-mindset-why-some-people-see-things-clearly-and-others-dont.jpg"
+                  alt="The scout mindset why some people see things clearly and others dont"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/designing-the-mind-the-principles-of-psychitecture.jpg"
+                  alt="Designing the mind the principles of psychitecture"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/what-makes-us-human-an-artificial-intelligence-answers-lifes-biggest-questions.jpg"
+                  alt="What makes us human an artificial intelligence answers lifes biggest questions"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/the-alignment-problem-machine-learning-and-human-values.jpg"
+                  alt="The alignment problem machine learning and human values"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/the-age-of-ai-and-our-human-future.jpg"
+                  alt="The age of ai and our human future"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-items/the-big-picture-on-the-origins-of-life-meaning-and-the-universe-itself.jpg"
+                  alt="The big picture on the origins of life meaning and the universe itself"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Top seller structure -->
+      <section class="items-wrapper">
+        <h3>Top Sellers in Books for you</h3>
+        <div class="carousel small">
+          <input
+            type="radio"
+            name="top-sellers"
+            value="previous"
+            class="previous__slide"
+          />
+          <input
+            type="radio"
+            name="top-sellers"
+            value="next"
+            class="next__slide"
+          />
+          <div class="previous-button">
+            <i class="fa fa-chevron-left fa-3x"></i>
+          </div>
+          <div class="next-button">
+            <i class="fa fa-chevron-right fa-3x"></i>
+          </div>
+          <div class="slider">
+            <div class="items-group">
+              <div class="item">
+                <img
+                  src="assets/top-sellers/to-the-ends-of-the-earth-building-a-national-missionary-sending-structure.jpg"
+                  alt="To the ends of the earth building a national missionary sending structure"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/earth-day-expressions-from-the-soul-warwick-academy-primary-school-students-share-thei-views-on-environmental.jpg"
+                  alt="Earth day expressions from the soul warwick academy primary school students share their views on environmental"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/trini-talk-a-dictionary-of-words-and-proverbs-of-trinidad-and-tobago.jpg"
+                  alt="Trini talk a dictionary of words and proverbs of trinidad and tobago"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/news-muse-humorous-poems-inspired-by-strange-news.jpg"
+                  alt="News muse humorous poems inspired by strange news"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/more-than-bargained-for-praying-at-a-higher-level.jpg"
+                  alt="More than bargained for praying at a higher level"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/machimaho-i-messed-up-and-made-the-wrong-person-into-a-magical-girl-vol-12.jpg"
+                  alt="Machimaho-i-messed-up-and-made-the-wrong-person-into-a-magical-girl-vol-12"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="items-group">
+              <div class="item">
+                <img
+                  src="assets/top-sellers/The-parenting-map-step-by-step-solutions-to-consciously-create-the-ultimate-parent-child-relationship.jpg"
+                  alt="The parenting map step-by-step solutions to consciously create the ultimate parent-child relationship"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/purposeful-power-breakthrough-7-strategies-for-creating-your-purposeful-passionate-and-positive-life.jpg"
+                  alt="Purposeful power breakthrough 7 strategies for creating your purposeful, passionate, and positive life"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/essence-toda-historia-tiene-dos-caras-spanish-edition.jpg"
+                  alt="Essence toda historia tiene dos caras (Spanish Edition)"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/extreme-ownership-how-u.s.navy-seals-lead-and-win-new-edition.jpg"
+                  alt="Extreme ownership how U.S. Navy seals lead and win (New Edition)"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/sex-you-and-food.jpg"
+                  alt="Sex you and food"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/top-sellers/friends-of-misfortune-a-witty-feel-good-page-turner-about-third-chances-with-a-compelling-description-of-the-gamblers.jpg"
+                  alt="Friends of misfortune A witty, feel-good page-turner about third chances with a compelling description of the gambler's"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Products Cards part 1 Structure -->
+      <section class="card-wrapper">
+        <article class="card">
+          <h3>New arrivals in Toys</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/new-arrivals-in-toys.jpg"
+              alt="New arrivals in toys"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>For your Fitness Needs</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/for-your-fitness-needs.jpg"
+              alt="For your fitness needs"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Shop activity trackers and smartwatches</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/shop-activity-trackers-and-smartwatches.jpg"
+              alt="Shop activity trackers and smartwatches"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Kindle E readers</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/shop-kindle-e-readers-ships-from-and-sold-by-amazon-us.jpg"
+              alt="Shop kindle E-readers. Ships from and sold by Amazon US."
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <div class="separator main"></div>
+      </section>
+      <!-- Start beauty internationally -->
+      <section class="items-wrapper static">
+        <h3>Popular products in Beauty internationally</h3>
+        <div class="items-group">
+          <div class="item">
+            <img
+              src="assets/beauty-internationally/mielle-organics-rosemary-mint-scalp.jpg"
+              alt="Mielle organics rosemary mint scalp and hair strengthening oil with biotin and essential oils"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/beauty-internationally/crest-3D-white-toothpaste-advanced-luminous-mint-teeth-whitening-toothpaste.jpg"
+              alt="Crest 3D white toothpaste advanced luminous mint teeth whitening toothpaste"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/beauty-internationally/cerave-am-facial-moisturizing-lotion.jpg"
+              alt="Cerave AM facial moisturizing lotion"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/beauty-internationally/cerave-retinol-serum-for-post-acne-marks-and-skin-texture.jpg"
+              alt="Cerave retinol serum for post-acne marks and skin texture"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/beauty-internationally/crest-3D-whitestrips-brilliance-white-32-strips.jpg"
+              alt="Crest 3D whitestrips brilliance white, 32 strips"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/beauty-internationally/colgate-max-fresh-wisp-disposable-mini-travel-toothbrushes.jpg"
+              alt="Colgate Max Fresh Wisp Disposable Mini Travel Toothbrushes"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Start home top sellers -->
+      <section class="items-wrapper static">
+        <h3>International top sellers in Home</h3>
+        <div class="items-group">
+          <div class="item">
+            <img
+              src="assets/top-sellers-in-home/fetti-kids-donut-nail-stickers.jpg"
+              alt="Fetti kids donut nail stickers"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/top-sellers-in-home/island-falls-home-zen-garden-kit.jpg"
+              alt="Island falls home zen garden kit"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/top-sellers-in-home/akcisot-wall-clock.jpg"
+              alt="AKCISOT wall clock"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/top-sellers-in-home/a-decorative-jewelry-dish-tray.jpg"
+              alt="A Decorative jewelry dish tray"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/top-sellers-in-home/sancua-round-table.jpg"
+              alt="Sancua round table"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/top-sellers-in-home/mybbshower-colorful-fiesta-paper-flowers.jpg"
+              alt="Mybbshower Colorful Fiesta Paper Flowers"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Products Cards part 2 Structure -->
+      <section class="card-wrapper">
+        <article class="card">
+          <h3>Shop Laptops & Tablets</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/shop-laptops-and-tablets.jpg"
+              alt="Shop laptops and tablets"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">See more</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Create with strip lights</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/create-with-strip-lights.jpg"
+              alt="Create with strip lights"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">Shop now</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Gaming merchandise</h3>
+          <div class="card__poster multi">
+            <figure>
+              <img
+                src="assets/products-cards/apparel.jpg"
+                alt="Apparel"
+                loading="lazy"
+              />
+              <figcaption>Apparel</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/products-cards/hats.jpg"
+                alt="Hats"
+                loading="lazy"
+              />
+              <figcaption>Hats</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/products-cards/action-figures.jpg"
+                alt="Action figures"
+                loading="lazy"
+              />
+              <figcaption>Action figures</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="assets/products-cards/mugs.jpg"
+                alt="Mugs"
+                loading="lazy"
+              />
+              <figcaption>Mugs</figcaption>
+            </figure>
+          </div>
+          <div class="card__link">
+            <a href="#">See more</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Shop Pet supplies</h3>
+          <div class="card__poster">
+            <img
+              src="assets/products-cards/shop-pet-supplies.jpg"
+              alt="Shop pet supplies"
+              loading="lazy"
+            />
+          </div>
+          <div class="card__link">
+            <a href="#">See more</a>
+          </div>
+        </article>
+        <div class="separator main"></div>
+      </section>
+      <!-- Start top sellers in baby products -->
+      <section class="items-wrapper static">
+        <h3>Top Sellers in Baby Products for you</h3>
+        <div class="items-group">
+          <div class="item">
+            <img
+              src="assets/baby-products/uraqt-neti-pot-nasal-rinse-kit-nose-wash-cleaner.jpg"
+              alt="URAQT neti pot nasal rinse kit nose wash cleaner"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/baby-products/gobericher-2-pack-sliding-door-lock-safety-lock.jpg"
+              alt="Gobericher 2 pack sliding door lock - safety lock"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/baby-products/baby-proof-outlet-cover-box.jpg"
+              alt="Baby Proof Outlet Cover Box"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/baby-products/the-play-gym-by-lovevery.jpg"
+              alt="The play gym by lovevery"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/baby-products/sassy-stacks-of-circles-stacking-ring-stem-learning-toy.jpg"
+              alt="Sassy stacks of circles stacking ring STEM learning toy"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/baby-products/nenesupply-17mm-flange-insert.jpg"
+              alt="Nenesupply 17mm flange insert"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Start Frequently repurchased -->
+      <section class="items-wrapper static">
+        <h3>Frequently repurchased in Home</h3>
+        <div class="items-group">
+          <div class="item">
+            <img
+              src="assets/frequently-repurchased/keurig-K155-office-pro-commercial-coffee-maker.jpg"
+              alt="Keurig K155 office pro commercial coffee maker"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/frequently-repurchased/portable-electric-space-heater-with-thermostat.jpg"
+              alt="Portable electric space heater with thermostat"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/frequently-repurchased/thermopro-tp50-digital-hygrometer-indoor-thermometer-room.jpg"
+              alt="ThermoPro TP50 digital hygrometer indoor thermometer room"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/frequently-repurchased/mr.siga-microfiber-cleaning-cloth.jpg"
+              alt="MR.SIGA microfiber cleaning cloth"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/frequently-repurchased/baxia-technology-solar-outdoor-lights-wireless-security.jpg"
+              alt="BAXIA Technology olar outdoor lights wireless security"
+              loading="lazy"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="assets/frequently-repurchased/beckham-hotel-collection-bed-pillows-standard.jpg"
+              alt="Beckham hotel collection bed pillows standard"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Start popular internationally -->
+      <section class="items-wrapper">
+        <h3>Popular products in Apparel internationally</h3>
+        <div class="carousel small">
+          <input
+            type="radio"
+            name="popular-products"
+            value="previous"
+            class="previous__slide"
+          />
+          <input
+            type="radio"
+            name="popular-products"
+            value="next"
+            class="next__slide"
+          />
+          <div class="previous-button">
+            <i class="fa fa-chevron-left fa-3x"></i>
+          </div>
+          <div class="next-button">
+            <i class="fa fa-chevron-right fa-3x"></i>
+          </div>
+          <div class="slider">
+            <div class="items-group">
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/lemrak-disposable-foot-socks.jpg"
+                  alt="Lemrak disposable foot socks"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/aoysky-mens-heavyweight-cotton-t-shirt.jpg"
+                  alt="aoysky mens heavyweight cotton t-shirt"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/rslove-women-lingerie-fishnet-bodysuit.jpg"
+                  alt="RSLOVE Women lingerie fishnet bodysuit"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/satinior-25-pieces-disposable-aprons-plastic-aprons.jpg"
+                  alt="SATINIOR 25 pieces disposable aprons plastic aprons for kids"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/4pcs-silky-durags.jpg"
+                  alt="4PCS silky durags"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/steve-madden-mens-leather-rfid-wallet.jpg"
+                  alt="Steve madden men's leather RFID wallet"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div class="items-group">
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/graduation-gifts-for-him-her.jpg"
+                  alt="Graduation Gifts for Him Her"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/barry.wang-paisley-tie-fashion.jpg"
+                  alt="Barry.Wang paisley tie fashion"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/onkentet-2pcs-key-card-holder-case-compatible-with-tesla-model-3.jpg"
+                  alt="ONKENTET 2PCS key card holder case compatible with tesla model 3"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/16-pieces-tic-tac-toe-keychain-valentines-day.jpg"
+                  alt="16 Pieces tic tac toe keychain valentine's day"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/to-be-in-style-womens-nylon-thigh-high-schoolgirl-opaque-stockings.jpg"
+                  alt="To be in style women's nylon thigh high schoolgirl opaque stockings"
+                  loading="lazy"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/popular-internationally/maikun-mens-and-womens-canvas-belt-with-black-d-ring.jpg"
+                  alt="Maikun mens and womens canvas belt with black D-ring"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator main"></div>
+      </section>
+      <!-- Sign in part and end the main content -->
+      <article class="signin-foot">
+        <div class="card__btn btn-foot">
+          <p>See personalized recommendations</p>
+          <button>Sign in</button>
+          <p>New customer? <a href="#"> Start here.</a></p>
+        </div>
+      </article>
+    </main>
+    <!-- Start footer Structure -->
+    <footer>
+      <div class="back-to-top">
+        <button>Back to top</button>
+      </div>
+      <div class="info">
+        <div class="info__section">
+          <h3>Get to Know Us</h3>
+          <ul>
+            <li>Careers</li>
+            <li>Blog</li>
+            <li>About Amazon</li>
+            <li>Investor Relations</li>
+            <li>Amazon Devices</li>
+            <li>Amazon Science</li>
+          </ul>
+        </div>
+        <div class="info__section">
+          <h3>Make Money with Us</h3>
+          <ul>
+            <li>Sell products on Amazon</li>
+            <li>Sell on Amazon Business</li>
+            <li>Sell apps on Amazon</li>
+            <li>Become an Affiliate</li>
+            <li>Advertise Your Products</li>
+            <li>Self-Publish with Us</li>
+            <li>Host an Amazon Hub</li>
+            <li>› See More Make Money with Us</li>
+          </ul>
+        </div>
+        <div class="info__section">
+          <h3>Amazon Payment Products</h3>
+          <ul>
+            <li>Amazon Business Card</li>
+            <li>Shop with Points</li>
+            <li>Reload Your Balance</li>
+            <li>Amazon Currency Converter</li>
+          </ul>
+        </div>
+        <div class="info__section">
+          <h3>Let Us Help You</h3>
+          <ul>
+            <li>Amazon and COVID-19</li>
+            <li>Your Account</li>
+            <li>Your Orders</li>
+            <li>Shipping Rates & Policies</li>
+            <li>Returns & Replacements</li>
+            <li>Manage Your Content and Devices</li>
+            <li>Amazon Assistant</li>
+            <li>Help</li>
+          </ul>
+        </div>
+      </div>
+      <div class="country">
+        <div class="country__logo">
+          <img src="assets/amazon-Logo-dark-mood.png" alt="Amazon logo" />
+        </div>
+        <div class="country__language">
+          <div class="english">
+            <i class="fa fa-globe"></i>
+            <p>English</p>
+            <div class="language__list">
+              <div class="menu-arrow"></div>
+              <div class="language-menu">
+                <div>
+                  <p>Change language</p>
+                  <a href="#">Learn more</a>
+                </div>
+                <ul>
+                  <li>
+                    <input
+                      type="radio"
+                      id="eng"
+                      name="lang-foot"
+                      value="eng"
+                      checked
+                    /><label for="eng">English - EN</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="es"
+                      name="lang-foot"
+                      value="es"
+                    /><label for="es">español - ES</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="ar"
+                      name="lang-foot"
+                      value="ar"
+                    /><label for="ar">العربية - AR</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="de"
+                      name="lang-foot"
+                      value="de"
+                    /><label for="de">Deutsch - DE</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="he"
+                      name="lang-foot"
+                      value="he"
+                    /><label for="he">עברית - HE</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="ko"
+                      name="lang-foot"
+                      value="ko"
+                    /><label for="ko">한국어 - KO</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="pt"
+                      name="lang-foot"
+                      value="pt"
+                    /><label for="pt">português - PT</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="zh"
+                      name="lang-foot"
+                      value="zh"
+                    /><label for="zh">中文 (简体) - ZH</label>
+                  </li>
+                  <li>
+                    <input
+                      type="radio"
+                      id="zh2"
+                      name="lang-foot"
+                      value="zh2"
+                    /><label for="zh2">中文 (繁體) - ZH</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="dollar">
+            <span>$</span>
+            <p>USD - US. Dollar</p>
+          </div>
+          <div class="usd">
+            <img
+              src="assets/united-states.png"
+              alt="United states flag"
+              loading="lazy"
+            />
+            <p>United States</p>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <ul class="services__section">
+          <li>
+            <h3>Amazon Music</h3>
+            <p>
+              Stream millions <br />
+              of songs
+            </p>
+          </li>
+          <li>
+            <h3>AmazonGlobal</h3>
+            <p>
+              Ship Orders <br />
+              Internationally
+            </p>
+          </li>
+          <li>
+            <h3>ComiXology</h3>
+            <p>
+              Thousands of <br />
+              Digital Comics
+            </p>
+          </li>
+          <li>
+            <h3>Prime Video Direct</h3>
+            <p>
+              Video Distribution <br />
+              Made Easy
+            </p>
+          </li>
+        </ul>
+        <ul class="services__section">
+          <li>
+            <h3>Amazon Advertising</h3>
+            <p>
+              Find, attract, and <br />
+              engage customers
+            </p>
+          </li>
+          <li>
+            <h3>Home Services</h3>
+            <p>
+              Experienced Pros <br />
+              Happiness Guarantee
+            </p>
+          </li>
+          <li>
+            <h3>DPReview</h3>
+            <p>
+              Digital <br />
+              Photography
+            </p>
+          </li>
+          <li>
+            <h3>Shopbop</h3>
+            <p>
+              Designer <br />
+              Fashion Brands
+            </p>
+          </li>
+        </ul>
+        <ul class="services__section">
+          <li>
+            <h3>6pm</h3>
+            <p>
+              Score deals <br />
+              on fashion brands
+            </p>
+          </li>
+          <li>
+            <h3>Amazon Ignite</h3>
+            <p>
+              Sell your original <br />
+              Digital Educational <br />
+              Resources
+            </p>
+          </li>
+          <li>
+            <h3>Fabric</h3>
+            <p>
+              Sewing, Quilting <br />
+              & Knitting
+            </p>
+          </li>
+          <li>
+            <h3>Woot!</h3>
+            <p>
+              Deals and <br />
+              Shenanigans
+            </p>
+          </li>
+          <li>
+            <h3>Neighbors App</h3>
+            <p>
+              Real-Time Crime <br />
+              & Safety Alerts
+            </p>
+          </li>
+        </ul>
+        <ul class="services__section">
+          <li>
+            <h3>AbeBooks</h3>
+            <p>
+              Books, art <br />
+              & collectibles
+            </p>
+          </li>
+          <li>
+            <h3>Amazon Web Services</h3>
+            <p>
+              Scalable Cloud <br />
+              Computing Services
+            </p>
+          </li>
+          <li>
+            <h3>Goodreads</h3>
+            <p>
+              Book reviews <br />
+              & recommendations
+            </p>
+          </li>
+          <li>
+            <h3>Zappos</h3>
+            <p>
+              Shoes & <br />
+              Clothing
+            </p>
+          </li>
+          <li>
+            <h3>Amazon Subscription Boxes</h3>
+            <p>Top subscription boxes – right to your door</p>
+          </li>
+        </ul>
+        <ul class="services__section">
+          <li>
+            <h3>ACX</h3>
+            <p>
+              Audiobook Publishing <br />
+              Made Easy
+            </p>
+          </li>
+          <li>
+            <h3>Audible</h3>
+            <p>
+              Listen to Books & Original <br />
+              Audio Performances
+            </p>
+          </li>
+          <li>
+            <h3>IMDb</h3>
+            <p>
+              Movies, TV <br />
+              & Celebrities
+            </p>
+          </li>
+          <li>
+            <h3>Ring</h3>
+            <p>
+              Smart Home <br />
+              Security Systems
+            </p>
+          </li>
+          <li>
+            <h3>PillPack</h3>
+            <p>Pharmacy Simplified</p>
+          </li>
+        </ul>
+        <ul class="services__section">
+          <li>
+            <h3>Sell on Amazon</h3>
+            <p>Start a Selling Account</p>
+          </li>
+          <li>
+            <h3>Book Depository</h3>
+            <p>
+              Books With Free <br />
+              Delivery Worldwide
+            </p>
+          </li>
+          <li>
+            <h3>IMDbPro</h3>
+            <p>
+              Get Info Entertainment <br />
+              Professionals Need
+            </p>
+          </li>
+          <li>
+            <h3>eero WiFi</h3>
+            <p>Stream 4K Video <br />in Every Room</p>
+          </li>
+        </ul>
+        <ul class="services__section">
+          <li>
+            <h3>Amazon Business</h3>
+            <p>
+              Everything For <br />
+              Your Business
+            </p>
+          </li>
+          <li>
+            <h3>Box Office Mojo</h3>
+            <p>
+              Find Movie <br />
+              Box Office Data
+            </p>
+          </li>
+          <li>
+            <h3>Kindle Direct Publishing</h3>
+            <p>
+              Indie Digital & Print Publishing <br />
+              Made Easy
+            </p>
+          </li>
+          <li>
+            <h3>Blink</h3>
+            <p>
+              Smart Security <br />
+              for Every Home
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="copy">
+        <div class="privacy">
+          <a href="#">Conditions of Use</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Your Ads Privacy Choices</a>
+        </div>
+        <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </footer>
+  </body>
+</html>
